@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-.clase-prueba {
-    color: red;
-}
-
 body {
     background-color: #7bb0ff;
     background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #7bb0ff 11px ), repeating-linear-gradient( #c8dffb55, #c8dffb );
