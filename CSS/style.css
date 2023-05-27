@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
 * {
     margin: 0;
@@ -7,6 +7,7 @@
 }
 
 body {
+    font-family: 'Ubuntu', sans-serif;
     background-color: #7bb0ff;
     background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #7bb0ff 11px ), repeating-linear-gradient( #c8dffb55, #c8dffb );
 }
@@ -76,7 +77,8 @@ body {
 
 #encabezado .contenedor-texto .contenedor-texto-2 .nombre {
     flex: 1 1 0%;
-    font: bold 3rem 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
     color: #ffffff;
 }
 
@@ -88,8 +90,6 @@ body {
 #encabezado .contenedor-texto .contenedor-texto-2 .contacto .phone {
     display: flex;
     gap: 6px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
     font-weight: 300;
     color: #ffffff;
 }
@@ -101,8 +101,6 @@ body {
 #encabezado .contenedor-texto .contenedor-texto-2 .contacto .email {
     display: flex;
     gap: 6px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
     font-weight: 300;
     color: #ffffff;
 }
@@ -119,13 +117,14 @@ body {
 }
 
 #contenido .experiencia-laboral .experiencia {
-    font: bold 2rem 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
     text-decoration: underline black;
 }
 
 #contenido .experiencia-laboral .trabajos .trabajo {
     padding-top: 1%;
-    font: bold 1rem 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
 
 #contenido .experiencia-laboral .trabajos .trabajo:hover {
@@ -137,13 +136,14 @@ body {
 }
 
 #contenido .columna-2 .formacion .formaciones {
-    font: bold 2rem 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
     text-decoration: underline black;
 }
 
 #contenido .columna-2 .formacion .cursos .curso {
     padding-top: 3%;
-    font: bold 1rem 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
 
 #contenido .columna-2 .formacion .cursos .curso:hover {
@@ -155,13 +155,14 @@ body {
 }
 
 #contenido .columna-2 .mas-informacion .info-extra {
-    font: bold 2rem 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
     text-decoration: underline black;
 }
 
 #contenido .columna-2 .mas-informacion .info {
     padding-top: 3%;
-    font: bold 1rem 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
 
 #contenido .columna-2 .mas-informacion .info .extra {
