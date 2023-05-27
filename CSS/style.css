@@ -113,6 +113,7 @@ body {
     flex: 1 1 0%;
     background: #f6f6f6;
     display: flex;
+    gap: 24px;
     padding: 90px 40px;
 }
 
@@ -120,15 +121,21 @@ body {
     font-weight: bold;
     font-size: 2rem;
     text-decoration: underline black;
+    margin-bottom: 20px;
 }
 
 #contenido .experiencia-laboral .trabajos .trabajo {
-    padding-top: 1%;
-    font-weight: bold;
+    padding-bottom: 24px;
 }
 
-#contenido .experiencia-laboral .trabajos .trabajo:hover {
-    transform: scale3d(1.05,1.05,1.05);
+#contenido .experiencia-laboral .trabajos .trabajo .trabajo--titulo {
+    padding-bottom: 4px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#contenido .experiencia-laboral .trabajos .trabajo .trabajo--titulo i {
+    padding-right: 8px;
 }
 
 #contenido .columna-2 {
@@ -136,18 +143,24 @@ body {
 }
 
 #contenido .columna-2 .formacion .formaciones {
+    padding-bottom: 20px;
     font-weight: bold;
     font-size: 2rem;
     text-decoration: underline black;
 }
 
 #contenido .columna-2 .formacion .cursos .curso {
-    padding-top: 3%;
-    font-weight: bold;
+    padding-bottom: 24px;
 }
 
-#contenido .columna-2 .formacion .cursos .curso:hover {
-    transform: scale3d(1.05,1.05,1.05);
+#contenido .columna-2 .formacion .cursos .curso .curso--titulo {
+    padding-bottom: 4px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#contenido .columna-2 .formacion .cursos .curso .curso--titulo i {
+    padding-right: 8px;
 }
 
 #contenido .columna-2 .mas-informacion {
@@ -155,20 +168,17 @@ body {
 }
 
 #contenido .columna-2 .mas-informacion .info-extra {
+    padding-bottom: 20px;
     font-weight: bold;
     font-size: 2rem;
     text-decoration: underline black;
 }
 
 #contenido .columna-2 .mas-informacion .info {
-    padding-top: 3%;
+    padding-bottom: 24px;
     font-weight: bold;
 }
 
 #contenido .columna-2 .mas-informacion .info .extra {
     padding-top: 2%;
-}
-
-#contenido .columna-2 .mas-informacion .info .extra:hover {
-    transform: scale3d(1.05,1.05,1.05);
 }
