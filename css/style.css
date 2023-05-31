@@ -91,6 +91,7 @@ body {
 #encabezado .contenedor-texto .contenedor-texto-2 .contacto .phone {
     display: flex;
     gap: 6px;
+    text-decoration: none;
     font-weight: 300;
     color: #ffffff;
 }
@@ -102,6 +103,7 @@ body {
 #encabezado .contenedor-texto .contenedor-texto-2 .contacto .email {
     display: flex;
     gap: 6px;
+    text-decoration: none;
     font-weight: 300;
     color: #ffffff;
 }
